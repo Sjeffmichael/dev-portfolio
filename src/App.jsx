@@ -180,7 +180,11 @@ const App = () => {
               <p className={isDarkMode ? 'text-slate-400' : 'text-slate-600'}>
                 Proven track record of maintaining 99.9% reliability across global AWS infrastructures and delivering thoroughly tested code.
               </p>
-              <a href="#" className="mt-8 flex items-center space-x-2 text-indigo-600 font-bold group hover:underline underline-offset-4">
+              <a 
+                href={`${import.meta.env.BASE_URL}CV.SJEFF.GOMEZ.pdf`} 
+                download 
+                className="mt-8 flex items-center space-x-2 text-indigo-600 font-bold group hover:underline underline-offset-4"
+              >
                 <Download size={18} />
                 <span>Download Full CV</span>
               </a>
