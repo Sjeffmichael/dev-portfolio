@@ -10,6 +10,7 @@ import {
   Terminal,
   Database
 } from 'lucide-react';
+import digestoGptImg from './assets/digesto-gpt-project.jpeg';
 
 // Custom inline SVGs for Brand Icons that were removed from lucide-react
 const GithubIcon = ({ size = 24, className = "" }) => (
@@ -71,11 +72,11 @@ const App = () => {
 
   const projects = [
     {
-      title: 'Agentic RAG Engine',
-      description: 'High-performance similarity search pipeline capable of processing complex unstructured datasets with automated context management to significantly reduce LLM hallucinations.',
-      image: 'https://images.unsplash.com/photo-1551288049-bbbda5366392?auto=format&fit=crop&q=80&w=800',
-      link: 'https://github.com/Sjeffmichael',
-      github: 'https://github.com/Sjeffmichael'
+      title: 'Digesto GPT',
+      description: 'Production-ready RAG system utilizing Python, LangChain, and Milvus to automate complex legal retrieval with 92% accuracy, processing 10,000+ legal documents.',
+      image: digestoGptImg,
+      link: 'https://github.com/Sjeffmichael/digesto-gpt',
+      github: 'https://github.com/Sjeffmichael/digesto-gpt'
     },
     {
       title: 'Scalable Microservices Architecture',
